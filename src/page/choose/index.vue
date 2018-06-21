@@ -24,6 +24,7 @@ export default {
 	methods: {
 		submit: function(){
 			console.log(this.$refs.input.value);
+			this.$router.push('/home')
 		}
 	}  
 }

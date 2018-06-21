@@ -1,17 +1,19 @@
 <template>
-  	<div class="home_container">
-        <itemcontainer father-component="home"></itemcontainer>
+  	<div class="home">
+        <div class="title">
+			<span class="position">哈尔滨</span>
+			<div class="num"><span>5</span>已添加景点个数</div>
+		</div>
+		<div class="main">
+			
+		</div>
     </div>
 </template>
 
 <script>
-import itemcontainer from '../../components/itemcontainer'
 
 export default {
 	name: 'home',
-  	components: {
-  		itemcontainer
-  	},
     created(){
         
     }
